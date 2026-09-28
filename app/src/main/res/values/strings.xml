@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_nav_rakshak">Path Sārathi</string>
+    <string name="ui_intelligent_dead_reckoning">INTELLIGENT DEAD RECKONING</string>
+    <string name="ui_your_journey_connected">YOUR JOURNEY, CONNECTED</string>
+    <string name="ui_confidence_for_the_road_ahead">Confidence for\nthe road ahead.</string>
+    <string name="ui_live_navigation_on_device_sensing_a_clearer_view">Live navigation. On-device sensing. A clearer view of every journey.</string>
+    <string name="ui_smartphone_gnss">SMARTPHONE + GNSS</string>
+    <string name="ui_ready_when_you_are">Ready when you are</string>
+    <string name="ui_start_outdoors_to_acquire_a_gps_fix_mount">Start outdoors to acquire a GPS fix. Mount your phone securely before you move.</string>
+    <string name="ui_start_navigation">Start navigation  →</string>
+    <string name="ui_your_workspace">Your workspace</string>
+    <string name="ui_your_trips_stay_on_this_device">Your trips stay on this device</string>
+    <string name="ui_csv_export_is_available_in_the_trip_library">CSV export is available in the trip library. Maps and route search require internet.</string>
+    <string name="ui_development_build_outage_positions_are_estimates_accuracy_is">DEVELOPMENT BUILD  •  Outage positions are estimates; accuracy is still being validated.</string>
+    <string name="ui_settings">Settings</string>
+    <string name="ui_navigation_preferences">Navigation preferences</string>
+    <string name="ui_applied_when_you_return_to_navigation_keep_screen">Applied when you return to navigation. Keep-screen-awake uses more battery.</string>
+    <string name="ui_this_phone_s_sensors">This phone’s sensors</string>
+    <string name="ui_location_permissions">Location &amp; permissions</string>
+    <string name="ui_trip_library">Trip library</string>
+    <string name="ui_your_first_journey">YOUR FIRST JOURNEY</string>
+    <string name="ui_a_clean_slate">A clean slate.</string>
+    <string name="ui_start_a_navigation_session_to_record_a_trip">Start a navigation session to record a trip. Your saved tracks and sensor exports will appear here.</string>
+    <string name="ui_record_a_trip">Record a trip</string>
+    <string name="ui_replay">Replay</string>
+    <string name="ui_share_csv">Share CSV</string>
+    <string name="ui_replay_shows_recorded_gnss_points_export_the_csv">Replay shows recorded GNSS points. Export the CSV for IMU and estimated-position analysis.</string>
+    <string name="ui_trip_replay">Trip replay</string>
+    <string name="ui_loading_your_trip">Loading your trip…</string>
+    <string name="ui_play_replay">Play replay</string>
+    <string name="ui_restart">Restart</string>
+    <string name="ui_visual_playback_not_original_trip_timing_map_tiles">Visual playback · not original trip timing. Map tiles require internet.</string>
+    <string name="ui_back">‹</string>
+    <string name="ui_search">Search</string>
+    <string name="ui_back_33">◎</string>
+    <string name="ui_ready_to_start">Ready to start</string>
+    <string name="ui_distance_outage">Distance —   ·   Outage —</string>
+    <string name="ui_speed">Speed —</string>
+    <string name="ui_search_or_tap_the_map_to_choose_a">Search or tap the map to choose a destination.</string>
+    <string name="ui_start_outdoors_to_acquire_a_gps_fix">Start outdoors to acquire a GPS fix.</string>
+    <string name="ui_start_trip">Start trip</string>
+    <string name="ui_test_outage">Test outage</string>
+</resources>

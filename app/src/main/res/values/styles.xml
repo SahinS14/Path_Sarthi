@@ -1,0 +1,17 @@
+<resources>
+    <!-- Use a dark system theme too, so permission/confirmation surfaces do not
+         break the map-first visual language with a bright dialog. -->
+    <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#EBC36E</item>
+        <item name="android:windowBackground">#091220</item>
+        <item name="android:navigationBarColor">#0B1220</item>
+        <item name="android:statusBarColor">#0B1220</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="LaunchTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#091220</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/path_sarathi_logo</item>
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+    </style>
+</resources>

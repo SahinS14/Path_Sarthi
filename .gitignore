@@ -1,0 +1,30 @@
+# Android / IDE outputs
+.gradle/
+.idea/
+build/
+*.iml
+local.properties
+
+# Python environments and transient outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Original benchmark data, local SDKs, model runs, and generated figures are
+# intentionally never versioned.
+work/
+outputs/
+tmp/
+
+# Signing material and distributable binaries must be released through a
+# controlled channel, never committed to source control.
+*.jks
+*.keystore
+keystore.properties
+*.apk
+*.aab
+
+# OS-generated files
+.DS_Store

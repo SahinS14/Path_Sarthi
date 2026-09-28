@@ -1,0 +1,35 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'in.navrakshak.idr'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'in.navrakshak.idr'
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName '0.1.0'
+    }
+    sourceSets {
+        // Package the supplied brand asset without duplicating it in the tree.
+        main.assets.srcDirs = ['src/main/assets', '../logo']
+        main.res.srcDir "$buildDir/generated/brand-res"
+    }
+}
+
+dependencies {
+    implementation 'org.maplibre.gl:android-sdk:11.8.0'
+    implementation 'androidx.core:core:1.15.0'
+    implementation 'androidx.activity:activity:1.10.1'
+    implementation 'androidx.core:core-splashscreen:1.0.1'
+}
+
+tasks.register('prepareBrandResources', Copy) {
+    from('../logo/logo.png')
+    into("$buildDir/generated/brand-res/drawable-nodpi")
+    // Treat the generated resource name as an input so a future rebrand cannot
+    // leave a stale drawable in an incremental build.
+    inputs.property('brandResourceName', 'path_sarathi_logo')
+    rename { 'path_sarathi_logo.png' }
+}
+tasks.named('preBuild').configure { dependsOn('prepareBrandResources') }
