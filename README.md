@@ -202,11 +202,6 @@ PYTHONPATH=idr-benchmark/src python3 idr-benchmark/src/train_speed_model.py \
   --dataset "/absolute/path/to/IO-VNBD/raw/Synchronised V abd S datasets/Categorised IOVNB Dataset"
 ```
 
-## Judge demo
-
-See [docs/JUDGE_DEMO.md](docs/JUDGE_DEMO.md) for the exact two-minute demo
-flow, expected permissions, trace-colour explanation, safe wording, and
-questions the team should answer accurately.
 
 ## Safety, privacy, and responsible use
 
